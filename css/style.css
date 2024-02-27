@@ -165,7 +165,7 @@
   padding: 0 30px;
   overflow: hidden;
 }
-.header .head video {
+.header .head img {
   position: absolute;
   top: 0;
   left: 0;
@@ -179,12 +179,12 @@
      object-position: center;
 }
 @media (max-width: 978px) {
-  .header .head video {
+  .header .head img {
     left: -150px;
   }
 }
 @media (max-width: 560px) {
-  .header .head video {
+  .header .head img {
     left: -500px;
   }
 }
